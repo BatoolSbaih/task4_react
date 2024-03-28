@@ -1,0 +1,31 @@
+.nav-link.active{
+    
+    border-bottom: 3px solid teal ;
+    
+   
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+}
+.part1-a{
+
+    margin-left: auto;
+}
+.part1-b{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+   
+}
+.part1-b ul{
+    margin: auto;
+}
+.part1-a ul{
+    padding-left: 50px;
+}
+
+.bg-body-tertiary1 {
+    --bs-bg-opacity: 1;
+    background-color:rgb(191, 224, 226);
+}
