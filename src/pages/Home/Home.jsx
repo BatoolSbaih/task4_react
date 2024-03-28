@@ -5,6 +5,7 @@ import 'swiper/css';
 import './Home.css'
 
 function Home() {
+
   const[categories,setcategories]=useState([]);
   const getcategories=async()=>{
   const response =await fetch(`https://ecommerce-node4.vercel.app/categories`);
@@ -15,12 +16,12 @@ function Home() {
 useEffect(()=>{
   getcategories(); 
 },[])
+
 const swiper = new Swiper('.swiper', {
-  autoplay: true,
   direction: 'horizontal',
   loop: true,
   slidesPerView:3,
-  
+  spaceBetween:15,
   // If we need pagination
   pagination: {
     el:'.swiper-pagination',
@@ -36,7 +37,7 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
-});
+}); 
   return (
     <>
 
