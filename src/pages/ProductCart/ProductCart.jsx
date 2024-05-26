@@ -40,7 +40,7 @@ function ProductCart() {
   const getDecreaseProduct = async (id) => {
     setLoader(true);
     const token = localStorage.getItem('userToken');
-    await axios.patch(`${import.meta.env.VITE_API_URL}/cart/decreaseQuantity`, {
+    await axios.patch(`${import.meta.env.VITE_API_URL}/cart/decraseQuantity`, {
       productId: id
     }, {
       headers: {
@@ -53,7 +53,7 @@ function ProductCart() {
   const getIncreaseProduct = async (id) => {
     setLoader(true);
     const token = localStorage.getItem('userToken');
-    await axios.patch(`${import.meta.env.VITE_API_URL}/cart/increaseQuantity`, {
+    await axios.patch(`${import.meta.env.VITE_API_URL}/cart/incraseQuantity`, {
       productId: id
     }, {
       headers: {
@@ -104,9 +104,9 @@ function ProductCart() {
                   </td>
                   <td className="text-center quantity">
                     <div className="buttons">
-                      <button type="button" className="btn btn-outline-dark" onClick={() => getDecreaseProduct(product.productId)}>-</button>
+                      <button  className="btn btn-outline-dark" onClick={() => getDecreaseProduct(product.productId)}>-</button>
                       <span> {product.quantity} </span>
-                      <button type="button" className="btn btn-outline-dark" onClick={() => getIncreaseProduct(product.productId)}>+</button>
+                      <button  className="btn btn-outline-dark" onClick={() => getIncreaseProduct(product.productId)}>+</button>
                     </div>
                   </td>
                   <td className="text-center">{product.details.price}</td>
