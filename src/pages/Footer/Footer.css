@@ -1,0 +1,50 @@
+.footer ul{
+    list-style-type: none;
+   
+   }
+   .footer h3{
+      font-size: 24px;
+   }
+   .footer ul{
+       font-weight: 100;
+       
+    }
+    .bodyy{
+        background-color:rgb(243 231 217);
+       
+      }
+    .footer ul li:hover{
+       font-weight: 500;
+       
+    }
+   .footer ul li{
+       margin-left: -36px;
+         padding: 10px;
+         font-weight: 400;
+       }
+       .footer a {
+          
+           text-decoration: none;
+           color:black;
+          
+         }
+         .footer svg{
+           margin-right: 20px;
+         }
+   
+   .copyright-area .icon  a{
+       margin-left: 12px;
+       border-radius: 50%;
+       font-size: large;
+       text-decoration: none;
+       padding: 20px;
+   }
+
+   footer {
+   
+    background: linear-gradient(rgba(155, 140, 122, 0.98), rgba(221, 156, 86, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+    color:black ;
+    font-weight: 500;
+   }
+   
+   

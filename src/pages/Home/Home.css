@@ -1,22 +1,165 @@
+/* Base styles (mobile first) */
 .carousel-item {
-    position: relative;
-    display: none;
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-right: -100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transition: transform .6s ease-in-out;
+  position: relative;
+  display: none;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
 }
+
 .swiper {
-    width: 100%;
+  width: 100%;
+  height: 200px;
+  border-radius: 25px;
+  border:2px solid rgb(128, 68, 0);
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+.swiper-button-lock2 {
+  display: flex;
+}
+
+.swiper-slide img {
+  width: 100px;
+}
+
+.swiper-slide h5 {
+  font-style: italic;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 20px;
+}
+
+.pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: none;
+}
+
+.swiper-button-prev {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+
+.hero-part2, .hero-part1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.edu-nsws {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(128, 68, 0);
+}
+
+.hero-part1 span {
+  font-size: 24px;
+  font-style: italic;
+  font-family: "Caveat", cursive;
+}
+
+.hero-part2 img {
+  border-radius: 25px;
+  display: block;
+}
+
+:root {
+  --swiper-theme-color: rgb(128, 68, 0);
+  background-color: rgb(150, 148, 148);
+}
+
+.bodyy {
+  background: linear-gradient(rgb(243 231 217), rgba(255, 238, 217, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.backswiper {
+  background-color: #d2b48c;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  border-radius: 25px;
+}
+
+/* Tablet and larger */
+
+@media (min-width: 904px) {
+  .hero {
+    flex-direction: row;
+    height: 400px;
+    gap: 60px;
+  }
+
+  .edu-nsws {
+    font-size: 50px;
+  }
+
+  .hero-part1 span {
+    font-size: 40px;
+  }
+}
+@media (max-width:591px) {
+
+  .hero-part2 img {
+   max-width: 400px;
+  }
+  
+}
+
+@media (max-width:419px) {
+
+  .hero-part2 img {
+   max-width: 350px;
+  }
+  
+}
+@media (max-width:359px) {
+
+  .hero-part2 img {
+   max-width: 300px;
+  }
+  
+}
+/* Desktop and larger */
+@media (min-width: 992px) {
+  .swiper {
     height: 300px;
-    
   }
-  .swiper-slide {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+  .swiper-slide img {
+    width: 150px;
   }
+}

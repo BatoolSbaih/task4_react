@@ -1,0 +1,132 @@
+.partall{
+    background-color:rgb(243 231 217);
+    padding-bottom: 80px;
+}
+.parta{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+template{
+    display: block;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:calc(100%);
+    gap: 20px;
+    justify-content:center;
+   align-items: center;
+    
+}
+.ourProducts{
+    font-size:30px;
+    color:rgb(128, 68, 0)  ;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.part2cart{
+    border-color:black;
+    border-radius: 30px;
+    border-style: double;
+    margin-top: 30px;
+    background: linear-gradient(#f3daac , rgba(143, 127, 109, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+   align-items: center;
+}
+.produtName{
+    height: 40px;
+}
+.part2cart{
+    width: calc((100% - 120px) / 3);
+}
+.part2cart img{
+    border-radius: 30px 30px 2px 2px ;
+    height: 300px;
+    width:calc(100%);
+}
+.part2cart h5 {
+    color:black;
+    font-size:15px;
+    padding: 20px;
+}
+.buttAdd button {border-radius:5px;
+    background-color:#D3D3D3;
+    border-color:black;
+    width: 300px;
+    color:black  ;
+
+
+font-size: medium;
+font-weight: 500;
+padding: 10px;
+margin: 20px;
+}
+.noProduc{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:40px;
+    color:rgb(128, 68, 0)  ;
+    font-size: 30px;
+}
+@media (max-width: 1200px) {
+    .part2cart {
+        width: calc((100% - 80px) / 2);
+    }
+
+    .buttAdd button {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ourProducts {
+        font-size: 25px;
+    }
+
+    .part2cart {
+        width: calc(100% - 40px);
+    }
+
+    .part2cart img {
+        height: 250px;
+    }
+
+    .buttAdd button {
+        width: 150px;
+    }
+
+    .noProduc {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ourProducts {
+        font-size: 20px;
+    }
+
+    .part2cart {
+        width: calc(100% - 20px);
+    }
+
+    .part2cart img {
+        height: 200px;
+    }
+
+    .buttAdd button {
+        width: 100px;
+    }
+
+    .noProduc {
+        font-size: 20px;
+    }
+}

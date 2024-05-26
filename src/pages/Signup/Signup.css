@@ -1,0 +1,153 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:17px;
+    color:black;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+}
+.pagesignin{
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px 0;
+background-color:rgb(247, 227, 206);
+
+}
+.pagesignin1{
+    
+    margin-top: 40px;
+   display: flex;
+   gap: 60px;
+   background-color:rgb(239 214 183);
+   
+   }
+
+
+
+.sign-part1{
+   
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+    background-image: url('src/pages/Signup/img/Imgespng.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(245, 245, 245, 0.98);
+}
+.gotosignup{
+    width:100px;
+    height: 40px;
+    border-radius:5px;
+    color:rgb(240, 232, 223);
+    border-color:black  ;
+    border: 2px solid black ;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(128, 68, 0);;
+}
+.sign-part1 h2{
+    color: black;
+    font-size: 30px;  
+}
+.sign-part1 .Account{
+    font-weight: 700;
+    color: rgba(48, 48, 46, 0.904);
+}
+.sign{
+width:calc((100% - 80px) / 2);
+margin-left: auto;
+}
+.sign input{
+    width: 80%;
+    border: 2px solid black ;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.sign button{
+    border-radius:5px;
+    background-color:#D3D3D3 ;
+    border: 2px solid black ;;
+    width: 80%;
+    color:black ;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    height: 50px;
+}
+@media (max-width: 822px) {
+    .pagesignin {
+        padding: 10px;
+    }
+    .pagesignin1 {
+        gap: 30px;
+    }
+    .sign-part1 {
+        width: 90%;
+        padding: 15px;
+    }
+    .sign {
+        width: 90%;
+    }
+    .sign input, .sign button {
+        width: 100%;
+    }
+    .sign-part1 h2 {
+        font-size: 25px;
+    }
+    .gotosignup {
+        width: 80px;
+        height: 35px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 570px) {
+    .pagesignin1{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px ;
+        background-color:rgb(247, 227, 206);
+        
+        } .pagesignin{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+            background-color:rgb(247, 227, 206);
+            
+            } 
+    .sign-part1 h2 {
+        font-size: 20px;
+    }
+    .sign-part1{
+        width: 100%;
+    }
+    .sign{
+        width: 100%;
+    }
+  
+  
+    .sign input, .sign button {
+        padding: 8px;
+    }
+}

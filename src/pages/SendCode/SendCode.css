@@ -1,0 +1,54 @@
+.SendC{
+    background: linear-gradient(rgba(214, 213, 212, 0.98), rgba(143, 127, 109, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+    width: 600px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.Forg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    font-weight: 700;
+}
+@media (max-width:375px) {
+  
+    .SendC{
+       
+        width:500px;
+        padding: 5px;
+        
+        
+    }}
+    @media (max-width:337px) {
+  
+        .SendC{
+           
+            width:320px;
+            padding:5px;
+            
+            
+        }}
+.SendMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 70px;
+}
+input{
+    width:300px;
+    border-color:black  ;
+    padding: 10px;
+    border-radius:5px;
+}
+.BtnSend{
+    width: 300px;
+    border: 2px solid black;
+    border-radius:7px;
+    height: 50px;
+    font-weight: 700;
+}

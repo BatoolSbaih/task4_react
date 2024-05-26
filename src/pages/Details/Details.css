@@ -1,0 +1,184 @@
+.MainBodyInDetails{
+  background-color:rgb(243 231 217);
+}
+
+.main_details{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.main_detailsChild{
+   width: 70%;
+    display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
+    gap:60px;
+}
+.RV{
+  background-color: rgb(240, 238, 234);
+}
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  background: linear-gradient(rgba(180, 159, 134, 0.98), rgba(221, 156, 86, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+
+}
+
+.review {
+  
+  background: linear-gradient(rgba(180, 159, 134, 0.98), rgba(221, 156, 86, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+
+}
+
+@media (max-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sub-img{
+width: 50px;
+height: 50px;
+
+}
+.main-img {
+  width: 100%;
+    height:300px;
+  }
+  .sub-img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid black;
+    
+  }
+  .mainImg{
+    width: 100%;
+  }
+.main_detailsChildOne{
+    width:calc((100% - 100px) / 2);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+   
+    padding-bottom: 10px;
+    background: linear-gradient(rgb(239 214 183 / 98%), rgb(128 68 0 / 58%)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);} .main_detailsChildOne .main-img{
+   height:380px;
+border-radius:  10px 10px 0 0;
+}
+.Imgs{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding-left: 15px;
+}
+
+.main_Two{
+
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+.main_detailsChildTwo{
+  width:750px;
+  border-radius: 10px;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+
+  
+  padding-bottom: 10px;
+  padding: 20px;
+  background: linear-gradient(rgba(155, 140, 122, 0.98), rgba(221, 156, 86, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+
+border-radius:  10px;
+}
+.PD , .H1D{
+  color: black;
+  font-weight: 500;
+}
+.SpanD{
+  color: black;
+  font-weight: 700;
+}
+.BtnDetaise button{
+  border:2px solid black;
+  width:200px;
+  color: black;
+  font-weight: 700;
+  background-color:rgba(207, 199, 188, 0.98);
+} 
+
+
+.review  {
+    padding: 15px;
+    height: 100vh;
+    overflow: scroll;
+  }
+.product_section{
+    background: linear-gradient(rgba(180, 159, 134, 0.98), rgba(221, 156, 86, 0.58)),url(https://64fcef1e05e28932c7d49513--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+}
+ .title{
+    top:20px;
+}
+.title span{
+ top: 22px;
+ font-size: 42px;
+ font-weight:700;
+ line-height: 1.4;
+ text-transform: uppercase;
+ color: var(--main-colors);
+}
+.title h2{
+  font-family: "Great Vibes" !important;
+  padding-left: 2px; 
+  color: var(--sec-color);
+  font-size: 50px;
+  line-height: 1;
+}
+@media (max-width: 1164px) {
+  .main_detailsChild {
+    flex-direction: column;
+    width: 90%;
+  }
+  .main_detailsChildOne, .main_detailsChildTwo {
+    width: 100%;
+    gap: 20px;
+  }
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 415px) {
+  .main_detailsChild {
+    flex-direction: column;
+    width:100%;
+  }
+  .main_detailsChildOne, .main_detailsChildTwo {
+    width: 100%;
+    gap: 20px;
+    font-size:12px;
+    
+  }
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  } .reviews {
+    padding: 5px;
+    width: 100%;
+  }
+ 
+}

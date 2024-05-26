@@ -1,0 +1,109 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:17px;
+    color:black ;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+}
+.pagesignin{
+
+display: flex;
+
+
+}
+.pagesignin1{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+align-items: center;
+justify-content: center;
+    margin-top: 40px;
+   display: flex;
+   gap: 60px;
+   background: linear-gradient(#f3daac , rgba(143, 127, 109, 0.58)), url(https://64fcef1…--creative-naiad-9dae2f.netlify.app/assets/img/light_dot.jpg);
+}
+
+
+
+.sign-part1{
+    width:calc((100% - 80px) / 2);
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:17px;
+    color:rgb(19, 14, 8) ;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+     border: 2px solid black ;
+    border-radius: 20px;
+}
+.gotosignup{
+    width:100px;
+    height: 40px;
+    border-radius:5px;
+    color:rgb(239 214 183);
+    border-color:black ;
+    background-color:black ;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-part1 h2{
+    color:black;
+    font-size: 30px;  
+}
+.sign-part1 .Account{
+    color: rgb(239 214 183);
+}
+.sign{
+width:calc((100% - 80px) / 2);
+margin-left: auto;
+}
+.sign input{
+    width: 80%;
+    border-color:black  ;
+    padding: 10px;
+    border-radius:5px;
+}
+.sign .butt2{
+    border-radius:5px;
+    background-color:#D3D3D3;
+    border: 2px solid black ;
+    width: 80%;
+    color:black  ;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+    height:50px;
+    font-weight: 700;
+}
+.forgetPassword{
+    color: rgb(34, 34, 94);
+    display: flex;
+    flex-direction: row;
+
+ margin-left:auto;
+ text-decoration-line: none;
+ font-size: 17px;
+}
+.forget{
+    display: flex;
+    width: 80%;
+    padding-right: 10px;  
+}
+.btnnn{
+padding:15px;
+
+}
+
