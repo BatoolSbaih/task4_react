@@ -1,8 +1,6 @@
 .nav-link.active{
     
     border-bottom: 3px solid rgb(248, 246, 244) ;
-    
-   
 }
 
 
@@ -14,9 +12,6 @@
 }
 .fashonname{
    font-style:italic ;
-}
-nav{
-  
 }
   .edu-nsw  {
     font-family: "Edu NSW ACT Foundation", cursive;
@@ -78,4 +73,71 @@ nav{
 .bg-body-tertiary1 {
     --bs-bg-opacity: 1;
  
+}
+/* Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins&display=swap');
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+}
+
+.logo1 {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.fashonname {
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+}
+
+.part1-a,
+.part1-b,
+.part1-c {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.part1-b {
+    justify-content: flex-end;
+}
+
+.dropdown-menu-custom {
+    background-color: #d3d3d3;
+}
+
+/* Ensure navbar-toggler button is visible and properly styled */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: wheat;
+}
+
+/* Media query to apply background color for the dropdown menu on smaller screens */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #d3d3d3;
+    }
 }
