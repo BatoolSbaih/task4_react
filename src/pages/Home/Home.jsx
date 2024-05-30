@@ -59,7 +59,7 @@ function Home() {
         <div className="bodyy">
           <div className="hero container">
             <div className="hero-part2">
-              <img src="src/pages/Home/img/fashon.png" alt="Fashion" />
+              <img src="../public/fashon.png" alt="Fashion" />
             </div>
             <div className="hero-part1">
               <h2 className="edu-nsws">Fashion Frenzy</h2>
